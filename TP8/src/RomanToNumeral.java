@@ -3,8 +3,12 @@ public class RomanToNumeral {
 
 	
 	public int getNumeral(String NumR) {
-		int numN=0;
+		int Result=0;
 		
-		return numN;
+		if (NumR == "X")
+				Result = 10;
+			
+		return Result;
+		
 	}
 }
